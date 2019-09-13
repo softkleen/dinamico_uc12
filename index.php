@@ -32,12 +32,44 @@
                     if(file_exists($pag[$link])){
                         include $pag[$link];
                     }
-                    
+                    else{
+                        include "home.php";
+                    }
+                }
+                else{
+                    include "home.php";
                 }
 
             ?>
         </section>
+        <section id="direita">
+                <div id="noticias">
+                    <h3>imagem noticia</h3>
+                    <div id="itens-noticias">
+                        <span>12/09/2019</span></br>
+                        <a href="index.php?link=">Lançamento do curso de PHP</a>
+                    </div>
 
+                    <div id="itens-noticias">
+                        <span>10/09/2019</span></br>
+                        <a href="index.php?link=">Criação do Modelo de curso de PHP</a>
+                    </div>
+
+                    <div id="itens-noticias">
+                        <span>02/09/2019</span></br>
+                        <a href="index.php?link=">Festival de PHP</a>
+                    </div>
+
+                </div>
+        </section>
+        <section id="admin" >
+            Área Administrativa
+            <br>
+            <a href="admin/index.php">acesso área administrativa</a>
+        </section>
+        <section id ="rodape">
+                &copy; - Todos os direitos reservados.
+        </section>
     </main>
     
 </body>
