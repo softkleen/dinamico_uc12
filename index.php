@@ -21,6 +21,22 @@
             <li><a href="index.php?link=">Produto 3</a></li>
             <li><a href="index.php?link=">Produto 4</a></li>
         </section>
+        <section id="centro">
+            <?php
+                $link = $_GET['link'];
+
+                $pag[1]="home.php";
+                $pag[5]="produto1.php";
+                
+                if(!empty($link)){
+                    if(file_exists($pag[$link])){
+                        include $pag[$link];
+                    }
+                    
+                }
+
+            ?>
+        </section>
 
     </main>
     
