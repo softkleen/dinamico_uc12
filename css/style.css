@@ -21,7 +21,7 @@ background-image: url(../imagens/topo.jpg);}
 }
 
     /* visual do link */
-    background-color:#EDEDED;
+a{    background-color:#EDEDED;
     color: #333;
    
     border-bottom:3px solid #EDEDED;
