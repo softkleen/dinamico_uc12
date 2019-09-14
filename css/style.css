@@ -6,7 +6,7 @@ bady{font-family: arial;}
 #estrutura {width: 960px;margin: 0 auto;}
 
 #estrutura #topo{height: 200px;
-background-image: url(../imagens/topo.jpg);}
+background-image: url(../img/particulas2.jpg);}
 #menu ul {
     padding:0px;
     margin:0px;
@@ -34,7 +34,7 @@ a{    background-color:#EDEDED;
 #estrutura #banner{height: 200px;background-color: #f3f3f3;}
 
 #corpo #esquerda{width:135px;height: 480px;float: left;}
-#corpo #centro{width: 690px;eight: 480px;float: left;}
+#corpo #centro{width: 690px;height: 480px;float: left;}
 #corpo #direita{width: 135px;height: 480px;float: left;}
 
 #estrutura #rodape{height: 50px;}
@@ -58,17 +58,16 @@ a{    background-color:#EDEDED;
 	margin: auto;
 	margin-top: 0px;
 	margin-left: 0px;
-	background-image:url("../imagens/servicos2.png");
+	background-image:url("../img/particulas1.jpg");
 	background-size: 100% 100%;
-	
 	animation: banner 10s infinite;
 }
 @keyframes banner{
 	0%, 30%{
-		background-image: url("../imagens/servicos3.png")
+		background-image: url("../img/particulas1.jpg")
 	}
 	31%, 65%{
-		background-image: url("../imagens/servi%C3%A7os.jpg")
+		background-image: url("../img/particulas2.jpg")
 	}
 	66%, 100%{
 		background-image: url("../imagens/servicos4.jpg")
@@ -85,7 +84,7 @@ a{    background-color:#EDEDED;
 #conteiner-posts-recentes{width: 465px;height: 360px;}
 
 #ultimo-post-lancado{float: left;margin: 5px;height: 323px;padding: 10px;
-                     border: solid 1px #ccc;width: 300px; float: left;}
+                     border: solid 1px #ccc;width: 300px; }
 
 
 
